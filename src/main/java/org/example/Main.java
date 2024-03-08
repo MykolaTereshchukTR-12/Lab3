@@ -16,20 +16,20 @@ public class Main implements IInfinity {
         main.PhraseWhile(scanner.nextLine());
         System.out.println("\n");
 
-        //TwoMinutesFor
-        System.out.println("What`s the time?");
-        main.TwoMinutesFor();
-        System.out.println("\n");
-
-        //TwoMinutesWhile
-        System.out.println("What`s the time? Again?");
-        main.TwoMinutesWhile();
-        System.out.println("\n");
-
-        //TwoHoursFor
-        System.out.println("What`s the hour?");
-        main.TwoHoursFor();
-        System.out.println("\n");
+//        //TwoMinutesFor
+//        System.out.println("What`s the time?");
+//        main.TwoMinutesFor();
+//        System.out.println("\n");
+//
+//        //TwoMinutesWhile
+//        System.out.println("What`s the time? Again?");
+//        main.TwoMinutesWhile();
+//        System.out.println("\n");
+//
+//        //TwoHoursFor
+//        System.out.println("What`s the hour?");
+//        main.TwoHoursFor();
+//        System.out.println("\n");
 
         //TwoMinutesFor
         System.out.println("Time to calculate the function)");
@@ -101,7 +101,7 @@ public class Main implements IInfinity {
     @Override
     public void FunctionFor(double min, double max) {
         double f = 0;
-        for(double x = min; x != max; x += 0.1){
+        for(double x = min; x <= max; x += 0.1){
             f = (x + 2 * x * x * x + 1.9)/(Math.sqrt(x - 1.5));
             System.out.println(f);
         }
@@ -110,7 +110,7 @@ public class Main implements IInfinity {
     @Override
     public void FunctionWhile(double min, double max){
         double x = min, f = 0;
-        while(x != max){
+        while(x <= max){
             f = (x + 2 * x * x * x + 1.9)/(Math.sqrt(x - 1.5));
             System.out.println(f);
             x += 0.1;
