@@ -16,20 +16,20 @@ public class Main implements IInfinity {
         main.PhraseWhile(scanner.nextLine());
         System.out.println("\n");
 
-//        //TwoMinutesFor
-//        System.out.println("What`s the time?");
-//        main.TwoMinutesFor();
-//        System.out.println("\n");
-//
-//        //TwoMinutesWhile
-//        System.out.println("What`s the time? Again?");
-//        main.TwoMinutesWhile();
-//        System.out.println("\n");
-//
-//        //TwoHoursFor
-//        System.out.println("What`s the hour?");
-//        main.TwoHoursFor();
-//        System.out.println("\n");
+        //TwoMinutesFor
+        System.out.println("What`s the time?");
+        main.TwoMinutesFor();
+        System.out.println("\n");
+
+        //TwoMinutesWhile
+        System.out.println("What`s the time? Again?");
+        main.TwoMinutesWhile();
+        System.out.println("\n");
+
+        //TwoHoursFor
+        System.out.println("What`s the hour?");
+        main.TwoHoursFor();
+        System.out.println("\n");
 
         //TwoMinutesFor
         System.out.println("Time to calculate the function)");
